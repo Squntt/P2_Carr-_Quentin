@@ -1,0 +1,14 @@
+@import url("http://fonts.googleapis.com/css?family=Lato|Raleway&subset=latin,latin-ext");
+
+
+
+* 
+{
+    font-family: "Raleway";
+    box-sizing: border-box;
+}
+
+.fa-star
+{
+    color: red;
+}
