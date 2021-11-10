@@ -42,37 +42,40 @@
                      </span>
                 </button>
         </div>
-    <div class="filters">
-
-        <span class="filters__title">Filtres</span>
-        <div class="filters__options">
-          <input name="type-hebergement" id="economique" type="checkbox" value="economique" />
-          <label for="economique" class="filter-option">
-            </span>
-
-            <span class="filter-option__label">Économique</span>
-          </label>
-          <input name="type-hebergement" id="familial" type="checkbox" value="familial" />
-          <label for="familial" class="filter-option">
-            </span>
-
-            <span class="filter-option__label">Familial</span>
-          </label>
-          <input name="type-hebergement" id="romantique" type="checkbox" value="romantique" />
-          <label for="romantique" class="filter-option">
-            </span>
-
-            <span class="filter-option__label">Romantique</span>
-          </label>
-          <input name="type-hebergement" id="animaux-autorises" type="checkbox" value="animaux-autorises" />
-          <label for="animaux-autorises" class="filter-option">
-            </span>
-
-            <span class="filter-option__label">Animaux autorisés</span>
-          </label>
+        <div class="filters">
+          <span class="filters__title">Filtres</span>
+          <div class="filters__options">
+            <input name="type-hebergement" id="economique" type="checkbox" value="economique" />
+            <label for="economique" class="filter-option">
+              <span aria-hidden="true" class="filter-option__icon">
+                <i class="fas fa-money-bill-wave"></i>
+              </span>
+              <span class="filter-option__label">Économique</span>
+            </label>
+            <input name="type-hebergement" id="familial" type="checkbox" value="familial" />
+            <label for="familial" class="filter-option">
+              <span aria-hidden="true" class="filter-option__icon">
+                <i class="fas fa-child"></i>
+              </span>
+              <span class="filter-option__label">Familial</span>
+            </label>
+            <input name="type-hebergement" id="romantique" type="checkbox" value="romantique" />
+            <label for="romantique" class="filter-option">
+              <span aria-hidden="true" class="filter-option__icon">
+                <i class="fas fa-heart"></i>
+              </span>
+              <span class="filter-option__label">Romantique</span>
+            </label>
+            <input name="type-hebergement" id="animaux-autorises" type="checkbox" value="animaux-autorises" />
+            <label for="animaux-autorises" class="filter-option">
+              <span aria-hidden="true" class="filter-option__icon">
+                <i class="fas fa-dog"></i>
+              </span>
+              <span class="filter-option__label">Animaux autorisés</span>
+            </label>
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
     <p class="results-info">
       <span class="results-info__icon"></span>
       Plus de 500 logements sont disponibles dans cette ville
@@ -82,13 +85,19 @@
         <section id="hebergements" class="results__accomodation results-section results-section--background-plain">
           <h2>Hébergements à Marseille</h2>
           <div class="articles-container">
+
             <article>
               <a href="#" title="Naviguer vers la page 'Auberge de La Cannebière'">
-                <img role="img" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                <img role="img" aria-hidden="true" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
-                  <i class="fas fa-star"></i>
                   <h3>Auberge La Cannebière</h3>
                   <p>Nuit à partir de <strong>25€</strong></p>
+                  <span role="img" aria-label="Hébergement 3 étoiles">
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star inactive"></i>
                   </span>
                 </div>
               </a>
@@ -96,10 +105,16 @@
 
             <article>
               <a href="#" title="Naviguer vers la page 'Hôtel du port'">
-                <img role="img" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+                <img role="img" aria-hidden="true" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
                   <h3>Hôtel du port</h3>
                   <p>Nuit à partir de <strong>23€</strong></p>
+                  <span role="img" aria-label="Hébergement 3 étoiles">
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star inactive"></i>
                   </span>
                 </div>
               </a>
@@ -107,10 +122,16 @@
 
             <article>
               <a href="#" title="Naviguer vers la page 'Hôtel Les mouettes'">
-                <img role="img" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
+                <img role="img" aria-hidden="true" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
                   <h3>Hôtel Les mouettes</h3>
                   <p>Nuit à partir de <strong>96€</strong></p>
+                  <span role="img" aria-label="Hébergement 3 étoiles">
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star inactive"></i>
                   </span>
                 </div>
               </a>
@@ -118,10 +139,16 @@
 
             <article>
               <a href="#" title="Naviguer vers la page 'Hôtel de la mer'">
-                <img role="img" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
+                <img role="img" aria-hidden="true" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
                   <h3>Hôtel de la mer</h3>
                   <p>Nuit à partir de <strong>52€</strong></p>
+                  <span role="img" aria-label="Hébergement 3 étoiles">
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star inactive"></i>
+                    <i aria-hidden="true" class="fas fa-star inactive"></i>
                   </span>
                 </div>
               </a>
@@ -129,21 +156,33 @@
 
             <article>
               <a href="#" title="Naviguer vers la page 'Auberge Le Panier'">
-                <img role="img" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                <img role="img" aria-hidden="true" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
                   <h3>Auberge Le Panier</h3>
                   <p>Nuit à partir de <strong>76€</strong></p>
+                  <span role="img" aria-label="Hébergement 3 étoiles">
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star inactive"></i>
                 </div>
               </a>
             </article>
 
             <article>
               <a href="#" title="Naviguer vers la page 'Hôtel chez Amina'">
-                <img role="img" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                <img role="img" aria-hidden="true" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                   alt="">
                 <div class="card-text" role="text">
                   <h3>Hôtel chez Amina</h3>
                   <p>Nuit à partir de <strong>46€</strong></p>
+                  <span role="img" aria-label="Hébergement 3 étoiles">
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
+                    <i aria-hidden="true" class="fas fa-star active"></i>
                   </span>
                 </div>
               </a>
