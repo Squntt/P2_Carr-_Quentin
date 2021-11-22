@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
     <title>
         Booki - Trouvez votre hébergement pour des vacances de rêves
@@ -34,14 +35,19 @@
         <p>En plein centre-ville ou en pleine nature !</p>
 
         <div class="search-input">
-            <span class="search-input__map-icon">
-                </span>
-                <input type="search" name="ville"autocomplete="on" placeholder="Marseille, France">
-                <button type="submit">
-                    <span class="search-input__submit-text">Rechercher</span>
-                     </span>
-                </button>
+          <span class="search-input__map-icon">
+            <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+          </span>
+          <input type="search" name="ville" aria-label="Entrez le nom d'une ville" autocomplete="on"
+            placeholder="Marseille, France">
+          <button type="submit">
+            <span class="search-input__submit-text">Rechercher</span>
+            <span class="search-input__submit-icon" aria-hidden="true">
+              <i class="fas fa-search"></i>
+            </span>
+          </button>
         </div>
+
         <div class="filters">
           <span class="filters__title">Filtres</span>
           <div class="filters__options">
@@ -77,7 +83,7 @@
         </div>
       </form>
     <p class="results-info">
-      <span class="results-info__icon"></span>
+      <span class="results-info__icon"><i aria-hidden="true" class="fas fa-info"></i></span>
       Plus de 500 logements sont disponibles dans cette ville
     </p>
 
@@ -85,8 +91,8 @@
         <section id="hebergements" class="results__accomodation results-section results-section--background-plain">
           <h2>Hébergements à Marseille</h2>
           <div class="articles-container">
-
             <article>
+              
               <a href="#" title="Naviguer vers la page 'Auberge de La Cannebière'">
                 <img role="img" aria-hidden="true" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
@@ -101,9 +107,7 @@
                   </span>
                 </div>
               </a>
-            </article>
 
-            <article>
               <a href="#" title="Naviguer vers la page 'Hôtel du port'">
                 <img role="img" aria-hidden="true" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
@@ -118,9 +122,7 @@
                   </span>
                 </div>
               </a>
-            </article>
 
-            <article>
               <a href="#" title="Naviguer vers la page 'Hôtel Les mouettes'">
                 <img role="img" aria-hidden="true" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
@@ -135,9 +137,7 @@
                   </span>
                 </div>
               </a>
-            </article>
 
-            <article>
               <a href="#" title="Naviguer vers la page 'Hôtel de la mer'">
                 <img role="img" aria-hidden="true" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
@@ -152,9 +152,7 @@
                   </span>
                 </div>
               </a>
-            </article>
 
-            <article>
               <a href="#" title="Naviguer vers la page 'Auberge Le Panier'">
                 <img role="img" aria-hidden="true" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
                 <div class="card-text" role="text">
@@ -168,9 +166,7 @@
                     <i aria-hidden="true" class="fas fa-star inactive"></i>
                 </div>
               </a>
-            </article>
 
-            <article>
               <a href="#" title="Naviguer vers la page 'Hôtel chez Amina'">
                 <img role="img" aria-hidden="true" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                   alt="">
@@ -186,7 +182,6 @@
                   </span>
                 </div>
               </a>
-            </article>
 
           </div>
           <a href="#" title="Afficher tout les résultats d'hébergement de votre recherche"
