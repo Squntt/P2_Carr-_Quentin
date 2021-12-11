@@ -10,9 +10,7 @@
 body {
   margin: 0;
 }
-
 /*HEADER*/
-
 header {
   display: flex;
   align-items: center;
@@ -45,43 +43,33 @@ nav a:hover {
 border-top: 3px solid #0065FC;
 color:#0065FC;
 }
-
 /*MAIN*/
-
 main {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
 margin-left: 30px;
 }
-
 /*Post-header*/
-
 #post-header {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   padding: 20px;
 }
-
 /*Titre*/
-
 .box-title-post-header h1 {
   font-size: 25px;
   font-weight: bold;
 }
-
 /*Recherche*/
-
 .box-search-post-header {
   display: flex;
   max-width: 400px;
   height: 50px;
   margin-bottom: 30px;
 }
-
 /*Icone barre de recherche*/
-
 .icon-box {
   display: flex;
   justify-content: center;
@@ -91,9 +79,7 @@ margin-left: 30px;
   background-color: #F2F2F2;
   border-radius: 15px 0 0 15px;
 }
-
 /*Texte, recherche*/
-
 .search-box {
   box-sizing: border-box;
   height: 50px;
@@ -110,9 +96,7 @@ margin-left: 30px;
   font-size: 18px;
   border: none;
 }
-
 /*Boutton de recherche*/
-
 .button-box {
   height: 50px;
   width: 120px;
@@ -133,9 +117,7 @@ margin-left: 30px;
 #search-button i {
   display: none;
 }
-
 /*Filtres*/
-
 .box-filtre-post-header {
   display: flex;
   align-items: center;
@@ -158,9 +140,7 @@ margin-left: 30px;
   border: solid 2px #F2F2F2;
   border-radius : 50px;
 }
-
 /*Animation filtres*/
-
 .filtre:hover > .icon-filtre {
 	background-color: #0065FC;
 	color: white;
@@ -194,9 +174,7 @@ margin-left: 30px;
 .text-filtre h3 {
 	font-size: 15px;
 }
-
 /*Information texte*/
-
 .box-information-post-header {
 	display: flex;
 	flex-direction: row;
@@ -220,9 +198,7 @@ margin-left: 30px;
 .text-information {
 	margin-left: 20px;
 }
-
 /*Section : Hébergement & Populaire*/
-
 #section-hebergement-populaire {
   display: flex;
   flex-basis: 100%;
@@ -246,9 +222,7 @@ align-items: center;
 .titre i {
 font-size: 25px;
 }
-
 /*Section : Populaire*/
-
 #section-populaire {
 	display: flex;
 	flex-direction: column;
@@ -326,9 +300,7 @@ font-size: 25px;
 .colorgrey {
     color: #D9D9D9;
 }
-
 /*Section : Hébergement*/
-
 #section-hebergement {
 	display: flex;
     flex-basis: 70%;
@@ -406,9 +378,7 @@ font-size: 25px;
 .economie-gras {
     font-weight: bold;
 }
-
 /*Section : Activité*/
-
 #section-activites {
 	display: flex;
 	flex-basis: 100%;
@@ -527,9 +497,7 @@ font-size: 25px;
 	text-decoration: none;
 	color: black;
 }
-
 /*Footer*/
-
 footer {
 	background-color: #F2F2F2;
 	width: 100%;
@@ -565,4 +533,3 @@ footer {
 	color: black;
 	padding: 5px;
 }
-
