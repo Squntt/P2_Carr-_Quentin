@@ -115,7 +115,8 @@ main {
 }
 
 .hotel-populaire {
-	width: 310px;
+	width: 600px;
+	margin: 27px;
 }
 
 .img-populaire img {
@@ -159,7 +160,7 @@ main {
 }
 
 .hotel-hebergement a {
-	min-width: 300px;
+	min-width: 500px;
 	width: 100%;
 }
 /*Section : Activité*/
@@ -192,7 +193,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	height: 220px;
-	width: 300px;
+	width: 500px;
 	flex-basis: 100%;
 }
 
